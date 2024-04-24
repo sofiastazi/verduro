@@ -12,7 +12,7 @@ a{
 }
 
 h2, h3, h4, h5, h6, p{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Times, 'Times New Roman', serif;
     display: flex;
     flex-direction: column;
     align-content: center;
