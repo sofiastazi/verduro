@@ -1,0 +1,240 @@
+@import url('https://fonts.cdnfonts.com/css/lemon-tuesday');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+.enlacesMS{
+    text-decoration: none;
+    color: #553f3f;
+    font-weight: bold;
+}
+
+h2, h3, h4, h5, h6, p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 30px;
+}
+
+p{
+    font-size: 18px;
+}
+
+figcaption{
+    font-size: 14px;    
+    text-align: start;
+}
+
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.1);
+    letter-spacing: 3px;
+    z-index: 2;
+    transition: all 0.5s ease-out; 
+}
+
+#navbar.navbar-scrolled{
+    background-color: #2e3527 ;
+}
+
+.navbar-brand img {
+    max-height: 70px;
+}
+
+.offcanvas .offcanvas-end .text-bg-dark{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+#offcanvasDarkNavbarLabel {
+    color: #dcdccf;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-nav .nav-link {
+    color: #dcdccf;
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+@media (max-width: 767px) {
+    .offcanvas-header, .offcanvas-body {
+        background-color: #2e3527;
+    }
+}
+
+@media (min-width: 768px) { 
+    .offcanvas-header, .offcanvas-body{
+        background-color: none;
+    }
+}
+
+#INICIO{ 
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    width: auto;
+    height: 100vh;
+}
+
+#INICIO video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; 
+    z-index: -1; 
+    opacity: 0.7;
+}
+
+#INICIO .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+#INICIO h1{
+    font-size: 100px;
+    color: #536536;
+    font-family: 'Lemon Tuesday', sans-serif;
+}
+
+#INICIO h2{
+    font-size: 26px;
+    font-style: oblique;
+    margin-top: 40px;
+    color: rgb(220, 220, 207);
+}
+
+
+#MISIÓN::before, 
+#ARTÍCULOS::before {
+    content: "";
+    display: block;
+    height: 90px; 
+    margin-top: -90px; 
+}
+
+
+#MISIÓN h3,
+#MISIÓN h4,
+#MISIÓN h5,
+#ARTÍCULOS h3{
+    text-align: center;
+}
+
+#MISIÓN h3,
+#ARTÍCULOS h3,
+.card-title,
+#introCompost h2,
+#introCompost h3,
+#guiaCompost h2,
+#guiaCompost h3,
+#guiaCompost h4,
+#introMS h2,
+#problematicaMS h2,
+#alternativasMS h2,
+#alternativasMS h3,
+#alternativasUruguay h2{
+    font-weight: bold;
+}
+
+#MISIÓN h5,
+#introCompost h4,
+#problematicaMS h3,
+#alternativasMS h4,
+#alternativasUruguay h3{
+    font-style: oblique;
+}
+
+#inicioCompost h1,
+#inicioMS h1 {
+    font-family: "Caveat", cursive;
+    color: #dcdccf;
+    font-style: italic;
+    font-size: 60px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.bgCompost,
+.bgMS {
+    position: relative;
+    overflow: hidden;
+}
+
+.bgCompost img,
+.bgMS img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.bgCompost .btn,
+.bgMS .btn {
+    position: absolute;
+    z-index: 1;
+}
+
+#introGuiaCompost h3{
+    font-size: 23px;
+}
+
+
+.divisorMS {
+    background-image: url(./imagenes/menstruacion/tela-roja.jpg);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding-top: 50vh;
+    background-size: cover;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.form-check-input:checked {
+    background-color: #627B39 !important;
+    border-color: #627B39 !important;
+}
+  
+.instagram-container {
+    width: 100%;
+}
+
+.instagram-container iframe {
+    width: 100%;
+    min-height: 670px; /* Aumenta la altura mínima para mostrar más contenido sin hacer scroll */
+}
+
+
+#VERDURO{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#VERDURO img{
+    width: 400px;
+}
+
+
+footer{
+    opacity: 0.9;
+    padding: 10px;
+    background-color: #2f3627fc;
+    color: #dcdccf;
+}
+
