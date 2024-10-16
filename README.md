@@ -1,4 +1,4 @@
-# 🌐 Mi primer página web - Verduro
+# 🌐 Mi primera página web - Verduro
 
 Bienvenid@ a mi primer acercamiento al Desarrollo Web, una página web creada como entrega final del curso de introducción a la programación **"Yo Puedo Programar"** de DESEM. Este sitio fue diseñado utilizando principalmente **HTML**, **CSS** y **Bootstrap**, con un enfoque en probar los conocimientos que adquirí durante ese curso y lograr una experiencia de usuario **atractiva** y **responsive**. 🚀
 
