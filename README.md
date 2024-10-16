@@ -7,5 +7,6 @@ Bienvenid@ a mi primer acercamiento al Desarrollo Web, una página web creada co
 
 ## 👨‍💻 Autora
 Desarrollado por **Sofía Stazi**.
+
 ---
 ¡Gracias por visitar mi proyecto!
